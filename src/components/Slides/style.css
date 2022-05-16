@@ -1,0 +1,10 @@
+#caro {
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+#pic {
+    max-width: 100%;
+  height: 800px;
+}
