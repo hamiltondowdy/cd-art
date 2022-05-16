@@ -19,7 +19,7 @@ export default function Mason () {
     <Box sx={{ minHeight: 100 }}>
       <Masonry columns={3} spacing={2}>
         {itemData.map((item, index) => (
-          <div key={index}>
+          <div key={index} id="ima">
             <Label>{index + 1}</Label>
             <img
               src={`${item.img}?w=162&auto=format`}

@@ -1,8 +1,9 @@
 import React from "react";
+import "./style.css";
 
 function Footer () {
     return (
-        <div id="footy">
+        <div>
                 <footer class="bg-white">
     <div class="container py-5">
       <div class="row py-3">
@@ -63,7 +64,7 @@ function Footer () {
    
     <div class="bg-light py-2">
       <div class="container text-center">
-        <p class="text-muted mb-0 py-2">&copy; 2019 BBBootstrap All risghts reserved.</p>
+        <p class="text-muted mb-0 py-2">&copy; 2022 Hamilton Dowdy All rights reserved.</p>
         
         </div>
       </div>
