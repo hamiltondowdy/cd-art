@@ -2,17 +2,30 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Masonry from '@mui/lab/Masonry';
+import img1 from "../../img/0001.jpg";
+import img2 from "../../img/0002.jpg";
+import img3 from "../../img/0003.jpg";
+import img43 from "../../img/0043.jpg";
+import img5 from "../../img/0005.jpg";
+import img6 from "../../img/0006.jpg";
+import img7 from "../../img/0007.jpg";
+import img8 from "../../img/0013.jpg";
+import img9 from "../../img/0015.jpg";
+import img10 from "../../img/0017.jpg";
+import img11 from "../../img/0020.jpg";
+import img12 from "../../img/0030.jpg";
+import img13 from "../../img/0031.jpg";
+import img14 from "../../img/0032.jpg";
+import img15 from "../../img/0033.jpg";
+import img16 from "../../img/0025.jpg";
+import img17 from "../../img/0026.jpg";
+import img18 from "../../img/0027.jpg";
+import img19 from "../../img/0028.jpg";
+import img20 from "../../img/0029.jpg";
+
 import { styled } from '@mui/material/styles';
 
-const Label = styled(Paper)(({ theme }) => ({
-  backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
-  ...theme.typography.body2,
-  padding: theme.spacing(0.5),
-  textAlign: 'center',
-  color: theme.palette.text.secondary,
-  borderBottomLeftRadius: 0,
-  borderBottomRightRadius: 0,
-}));
+
 
 export default function Mason () {
   return (
@@ -20,7 +33,7 @@ export default function Mason () {
       <Masonry columns={3} spacing={2}>
         {itemData.map((item, index) => (
           <div key={index} id="ima">
-            <Label>{index + 1}</Label>
+
             <img
               src={`${item.img}?w=162&auto=format`}
               srcSet={`${item.img}?w=162&auto=format&dpr=2 2x`}
@@ -42,71 +55,83 @@ export default function Mason () {
 
 const itemData = [
   {
-    img: 'https://images.unsplash.com/photo-1518756131217-31eb79b20e8f',
+    img: img1,
     title: 'Fern',
   },
   {
-    img: 'https://images.unsplash.com/photo-1627308595229-7830a5c91f9f',
+    img: img2,
     title: 'Snacks',
   },
   {
-    img: 'https://images.unsplash.com/photo-1597645587822-e99fa5d45d25',
+    img: img3,
     title: 'Mushrooms',
   },
   {
-    img: 'https://images.unsplash.com/photo-1529655683826-aba9b3e77383',
+    img: img43,
     title: 'Tower',
   },
   {
-    img: 'https://images.unsplash.com/photo-1471357674240-e1a485acb3e1',
+    img: img5,
     title: 'Sea star',
   },
   {
-    img: 'https://images.unsplash.com/photo-1558642452-9d2a7deb7f62',
+    img: img6,
     title: 'Honey',
   },
   {
-    img: 'https://images.unsplash.com/photo-1516802273409-68526ee1bdd6',
+    img: img7,
     title: 'Basketball',
   },
   {
-    img: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
+    img: img8,
     title: 'Breakfast',
   },
   {
-    img: 'https://images.unsplash.com/photo-1627328715728-7bcc1b5db87d',
+    img: img9,
     title: 'Tree',
   },
   {
-    img: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d',
+    img: img10,
     title: 'Burger',
   },
   {
-    img: 'https://images.unsplash.com/photo-1522770179533-24471fcdba45',
+    img: img11,
     title: 'Camera',
   },
   {
-    img: 'https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c',
+    img: img12,
     title: 'Coffee',
   },
   {
-    img: 'https://images.unsplash.com/photo-1627000086207-76eabf23aa2e',
+    img: img13,
     title: 'Camping Car',
   },
   {
-    img: 'https://images.unsplash.com/photo-1533827432537-70133748f5c8',
+    img: img14,
     title: 'Hats',
   },
   {
-    img: 'https://images.unsplash.com/photo-1567306301408-9b74779a11af',
+    img: img15,
     title: 'Tomato basil',
   },
   {
-    img: 'https://images.unsplash.com/photo-1627328561499-a3584d4ee4f7',
+    img: img16,
     title: 'Mountain',
   },
   {
-    img: 'https://images.unsplash.com/photo-1589118949245-7d38baf380d6',
+    img: img17,
+    title: 'Bike',
+  },
+  {
+    img: img18,
+    title: 'Tomato basil',
+  },
+  {
+    img: img19,
+    title: 'Mountain',
+  },
+  {
+    img: img20,
     title: 'Bike',
   },
 ];
