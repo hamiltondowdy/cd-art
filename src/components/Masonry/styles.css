@@ -18,7 +18,7 @@
     flex-wrap: wrap;
     justify-content: center;
 
-    margin: 2%;
+    margin: 3.5%;
 
     padding: 4%;
     background-color: rgb(255, 255, 255);
@@ -33,9 +33,9 @@
         top: 0%;
         transform:
     
-        rotateY(-22deg)
-        rotateX(-3deg);
-        perspective: (800px);
+        rotateY(-20deg)
+        rotateX(2deg);
+        perspective: (-800px);
       transition: transform .75s ease 0s;
    
     
@@ -43,7 +43,7 @@
     
       #ima:hover {
         transform:rotateY(0deg) rotateX(0deg)
-        scale(1.05);
+        scale(1.02);
     }
 
 
