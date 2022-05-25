@@ -1,0 +1,18 @@
+.catlab {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Railway';
+    border-bottom: 2px solid black;
+}
+
+.dropdown a {
+    text-decoration: none;
+    color: black;
+    font-family: "Railway", sans-serif;
+    margin-left: 2.5%;
+    letter-spacing: 1.5px;
+    font-weight: 300;
+ 
+
+}
