@@ -22,15 +22,16 @@ import img17 from "../../img/0026.jpg";
 import img18 from "../../img/0027.jpg";
 import img19 from "../../img/0028.jpg";
 import img20 from "../../img/0029.jpg";
-
+import "./styles.css";
 import { styled } from '@mui/material/styles';
 
 
 
 export default function Mason () {
   return (
-    <Box sx={{ minHeight: 100 }}>
-      <Masonry columns={3} spacing={2}>
+    <div id="mas">
+        <Box sx={{ minHeight: 100 }}>
+      <Masonry columns={3} spacing={2} margin="5px">
         {itemData.map((item, index) => (
           <div key={index} id="ima">
 
@@ -50,6 +51,9 @@ export default function Mason () {
         ))}
       </Masonry>
     </Box>
+
+    </div>
+    
   );
 }
 

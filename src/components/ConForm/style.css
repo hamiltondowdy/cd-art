@@ -72,4 +72,6 @@ textarea {
 
 #ror h1 {
     font-size: 2.5rem !important;
+    margin: 0 !important;
+    padding: 20px;
 }
