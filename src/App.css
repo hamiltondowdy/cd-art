@@ -1,11 +1,13 @@
 html, body {
+  flex-wrap: wrap;
+  justify-content: center;
   height: 100%;
   width: 100%;
   overflow: hidden;
 }
 
 .photo-list {
-  width: 90%;
+  width: 100%;
   list-style: none;
   margin: 20px auto;
 }
@@ -21,4 +23,16 @@ html, body {
   display: flex;
   width: 100%;
   border: 4px double rgba(0, 0, 0, .12);
+}
+
+@media only screen and (max-width: 600px) {
+  body { 
+    flex-wrap: wrap;
+
+    justify-content: center;
+  }
+  
+  h1 {
+    font-size: 12px;
+  }
 }

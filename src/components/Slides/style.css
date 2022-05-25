@@ -5,6 +5,7 @@
     justify-content: center;
     padding: 5%;
     border-radius: 5px;
+    object-fit: cover;
     max-width: 100%;
     font-family: 'Raleway', sans-serif; font-size: 30px; font-weight: 700;
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
@@ -13,12 +14,16 @@
 #pic {
     max-width: auto;
   max-height: 750px;
+  object-fit: fill;
   border-radius: 1px;
   background-color: #e7d8d8;
-  padding: 2%;
+  padding: 1%;
   border-color: #e7d8d8(129, 123, 123);
   border-width: 10px;
 
   font-family: 'Raleway', sans-serif; font-size: 30px; font-weight: 300;
 }
 
+img {
+  object-fit: fill;
+}
