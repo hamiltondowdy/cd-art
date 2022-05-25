@@ -2,24 +2,24 @@
 
 
 .about-photo {
-    width: 65vh;
+    width: 60vh;
     border: 10px solid #e1e2eb;
 }
 
 #aboutTitle {
-    font-family: 'Raleway', sans-serif; font-size: 50px; font-weight: 700;
+    font-family: 'Raleway', sans-serif; font-size: 50px; font-weight: 200;
     text-align: center;
  
     color: #fff;
 }
 
 .bioText {
-    margin-top: 20px;
-    padding-bottom: 30px;
+    margin-top: 10px;
+   
     color: rgb(255, 255, 255);
     
     text-align: center;
-    font-family: 'Raleway', sans-serif; font-size: 2rem; font-weight: 700;
+    font-family: 'Raleway', sans-serif; font-size: 2rem; font-weight: 100;
 }
 
 .bio {
@@ -44,8 +44,8 @@ color: #fff;
 }
 
 #abtitle {
-    font-size: 3rem;
-    font-weight: 350;
+    font-size: 2.5rem;
+    font-weight: 150;
 }
 
 #bt {
@@ -65,4 +65,9 @@ color: #fff;
 #pio {
     flex-wrap: wrap;
     align-content: center;
+}
+
+h4 {
+    font-weight: normal;
+    letter-spacing: 4px;
 }

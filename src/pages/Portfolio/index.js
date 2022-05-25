@@ -13,9 +13,7 @@ function Portfolio () {
             </div>
             <>
 
-    <Alert>
-      This is an alert—check it out!
-    </Alert>
+
 
 </>
             <div id="mason">

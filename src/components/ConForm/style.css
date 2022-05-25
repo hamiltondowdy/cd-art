@@ -2,8 +2,10 @@
 label,
 input,
 textarea {
-    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
     width: 100%;
+    text-align: center;
 }
 ul {
     list-style: none;
@@ -16,11 +18,12 @@ li {
 }
 span {
     font-weight: 700;
-    color: #102a43;
+    color: #f3ecec;
     line-height: 35px;
     line-height: 2.5rem;
     font-size: 12px;
     font-size: 0.8rem;
+    text-align: center;
     text-transform: uppercase;
 }
 input[type="submit"] {
@@ -34,7 +37,7 @@ input[type="submit"] {
 
 
 form {
-    background-color: #ffffff;
+    background: #887676;
     padding-top: 40px;
     padding-right: 40px;
     padding-bottom: 40px;
@@ -45,7 +48,7 @@ form {
 }
 
 .required-star {
-    color: #fc4366;
+    color: #ffffff;
 }
 
 input,
@@ -65,4 +68,8 @@ textarea {
     border-radius: 3px;
     line-height: 29px;
     line-height: 2rem;
+}
+
+#ror h1 {
+    font-size: 2.5rem !important;
 }

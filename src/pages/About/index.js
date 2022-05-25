@@ -1,5 +1,5 @@
 import React from "react";
-import MeOnWater from "../../img/flower.jpg";
+import MeOnWater from "../../img/abstract2.jpg";
 import { Col, Row } from "react-bootstrap";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
@@ -13,10 +13,10 @@ function About() {
 <Header />
         <div className="text-center" id="about">
             <Row id="aboot" className="align-items-center">
-                <Col className="col-md-6 text-center">
+                <Col className="col-md-5 text-center">
                     <img src={MeOnWater} className="about-photo img-fluid" alt="Me"></img>
                 </Col>
-                <Col sm={6} id="biolo">
+                <Col sm={7} id="biolo">
                     <h4 id="abtitle">About the Artist</h4>
                     <div className="row align-self-center bioText" id="bt">
                         <p className="bio">Celebrating vibrant color, contrast and form, Christina explores all types of subject matter. She is drawn to compositions highlighting depth, color, and dramatic highlights. Never content to remain unchallenged, her body of work has evolved to span the range of styles from abstraction to traditionally representational.
