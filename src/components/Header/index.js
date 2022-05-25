@@ -6,7 +6,7 @@ function Header () {
     return (
         <div>
             <div id="logo">
-                <h1>Christina Dowdy</h1>
+                <h1><i>Christina Dowdy</i></h1>
                 <h4>Original Oil Paintings</h4>
                 <div id="oop">
 
