@@ -2,8 +2,7 @@
 label,
 input,
 textarea {
-    flex-wrap: wrap;
-    justify-content: center;
+ 
     width: 100%;
     text-align: center;
 }
@@ -23,7 +22,7 @@ span {
     line-height: 2.5rem;
     font-size: 12px;
     font-size: 0.8rem;
-    text-align: center;
+
     text-transform: uppercase;
 }
 input[type="submit"] {
@@ -39,12 +38,13 @@ input[type="submit"] {
 form {
     background: #887676;
     padding-top: 40px;
+    padding-left: 7px;
     padding-right: 40px;
     padding-bottom: 40px;
-    padding-left: 40px;
+
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
     border-radius: 3px;
-    overflow: hidden;
+
 }
 
 .required-star {
@@ -71,8 +71,12 @@ textarea {
 }
 
 #ror h1 {
-    font-size: 2.5rem !important;
-    margin: 0 !important;
-    font-style: italic;
-    padding: 20px;
+    font-family: 'Playfair Display', serif !important;
+    color: #f3ecec;
+    text-align: center;
+    font-size: 3.2rem;
+    margin-top: 5%;
+    padding: 10px;
+  
+    text-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }

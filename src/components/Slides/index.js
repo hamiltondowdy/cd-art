@@ -29,7 +29,7 @@ function Slides() {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="w-responsive justify-content-center"
+      className="responsive justify-content-center"
       id="pic"
       src={Abstract}
       alt="First slide"
@@ -41,7 +41,7 @@ function Slides() {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="w-responsive justify-content-center"
+      className="responsive justify-content-center"
       id="pic"
       src={Marsh}
       alt="First slide"

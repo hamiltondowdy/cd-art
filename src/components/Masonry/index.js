@@ -31,10 +31,10 @@ export default function Mason () {
   return (
     <div id="mas">
         <Box sx={{ minHeight: 100 }}>
-      <Masonry columns={3} spacing={2} margin="5px">
+      <Masonry columns={{ xs: 1, sm: 2, md: 3}} spacing={2}>
         {itemData.map((item, index) => (
           <div key={index} id="ima" className='module'>
-            <div className='wrapper' id='bord'>
+            <div className='responsive' id='bord'>
             <img
               src={`${item.img}?w=162&auto=format`}
               srcSet={`${item.img}?w=162&auto=format&dpr=2 2x`}

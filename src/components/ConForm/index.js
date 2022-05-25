@@ -6,9 +6,10 @@ function ConForm () {
     return (
         <div>
             <Row md="justify-content-center-md-center" id='ror'>
-                <h1>Reach out</h1>
+                
             <Col md={{ span: 6, offset: 3 }}>
             <form>
+            <h1>Reach  Out</h1>
         <ul>
             <li>
                 <label for="name"><span>Name <span class="required-star">*</span></span></label>
