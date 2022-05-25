@@ -6,7 +6,8 @@ body { background-color: rgb(255, 255, 255); }
 .footer-social-links{
     font-size: 20px;
   text-align: center;
-  margin-top: 20%;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 .footer-social-links a{
     width: 35px;

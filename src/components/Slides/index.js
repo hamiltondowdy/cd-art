@@ -3,12 +3,17 @@ import { Carousel } from "react-bootstrap";
 import Boats from "../../img/boats.jpg";
 import Marsh from "../../img/marsh.jpg";
 import Flower from "../../img/flower.jpg";
+import { Col, Row } from "react-bootstrap";
 import "./style.css";
 
 function Slides() {
 
     return (
-        <Carousel id="caro">
+      <div>
+        <Row className="justify-content-md-center">
+
+          <Col md={{ span: 8}}>
+          <Carousel id="caro">
   <Carousel.Item>
     <img
       className="d-block w-100"
@@ -46,6 +51,12 @@ function Slides() {
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
+          
+          </Col>
+        </Row>
+
+      </div>
+        
     )
 }
 
