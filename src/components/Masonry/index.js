@@ -33,20 +33,23 @@ export default function Mason () {
         <Box sx={{ minHeight: 100 }}>
       <Masonry columns={3} spacing={2} margin="5px">
         {itemData.map((item, index) => (
-          <div key={index} id="ima">
-
+          <div key={index} id="ima" className='module'>
+            <div className='wrapper' id='bord'>
             <img
               src={`${item.img}?w=162&auto=format`}
               srcSet={`${item.img}?w=162&auto=format&dpr=2 2x`}
               alt={item.title}
               loading="lazy"
               style={{
-                borderBottomLeftRadius: 4,
-                borderBottomRightRadius: 4,
+
                 display: 'block',
                 width: '100%',
               }}
             />
+
+            </div>
+
+            
           </div>
         ))}
       </Masonry>

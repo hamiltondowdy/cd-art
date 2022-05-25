@@ -7,7 +7,7 @@
     border-radius: 5px;
     object-fit: cover;
     max-width: 100%;
-    font-family: 'Raleway', sans-serif; font-size: 30px; font-weight: 700;
+    font-family: 'Raleway', sans-serif; font-size: 30px; font-weight: 300;
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 

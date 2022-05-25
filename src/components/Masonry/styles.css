@@ -1,15 +1,28 @@
 #ima {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    
-    margin: 15px;
-    border: 4px solid rgba(199, 196, 196, 0.848);
 
+    margin: 15px;
+    border: 10px solid rgb(33, 31, 31);
+   border-style: inset;
+
+}
+
+.wrapper {
+    flex-wrap: wrap;
+    border: 50px solid rgb(246, 239, 239);
 }
 
 
 #mas {
     margin: 2%;
-    padding: 5%;
+    padding: 4%;
     background-color: rgb(255, 255, 255);
-    
+
+}
+
+img {
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 6px solid rgb(43, 42, 42);
+ 
 }
