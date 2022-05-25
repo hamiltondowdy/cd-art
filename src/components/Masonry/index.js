@@ -34,8 +34,9 @@ export default function Mason () {
       <Masonry columns={{ xs: 1, sm: 2, md: 3}} spacing={2}>
         {itemData.map((item, index) => (
           <div key={index} id="ima" className='module'>
-            <div className='responsive' id='bord'>
+            <div className='mug' id='bord'>
             <img
+            className='mug'
               src={`${item.img}?w=162&auto=format`}
               srcSet={`${item.img}?w=162&auto=format&dpr=2 2x`}
               alt={item.title}

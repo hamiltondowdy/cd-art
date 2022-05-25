@@ -2,7 +2,7 @@ import React from "react";
 import { Carousel } from "react-bootstrap";
 import Boats from "../../img/boats.jpg";
 import Marsh from "../../img/marsh.jpg";
-import Flower from "../../img/flower.jpg";
+
 import Abstract from "../../img/abstract.jpg";
 import { Col, Row } from "react-bootstrap";
 import "./style.css";
