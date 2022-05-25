@@ -19,7 +19,7 @@ header
 
 header a {
     font-size: 3em;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', sans-serif;
     font-style: italic;
 
 }
@@ -88,7 +88,7 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
 }
 
 #logo h1 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', sans-serif;
 
     text-align: center;
     font-size: 4.8rem;

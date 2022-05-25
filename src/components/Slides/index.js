@@ -17,14 +17,14 @@ function Slides() {
           <Carousel id="caro" className="mx-auto">
   <Carousel.Item>
     <img
-      className="responsive justify-content-center"
+      className="fluid justify-content-center"
       id="pic"
       src={Boats}
       alt="First slide"
     />
     <Carousel.Caption>
-      <h3>Commissions</h3>
-      <p>View Collection</p>
+      <h3>Boats</h3>
+      <h7>View Collection</h7>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -35,8 +35,8 @@ function Slides() {
       alt="First slide"
     />
     <Carousel.Caption>
-      <h3>Abstract</h3>
-      <p>View Collection</p>
+      <h3>Abstracts</h3>
+      <h7>View Collection</h7>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -48,7 +48,7 @@ function Slides() {
     />
     <Carousel.Caption>
       <h3>Landscape</h3>
-      <p>View Collection</p>
+      <h7>View Collection</h7>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
