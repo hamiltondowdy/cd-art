@@ -12,7 +12,7 @@ import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Market from "./pages/Market";
 import Portfolio from "./pages/Portfolio";
-import Viewer from "./pages/Viewer";
+
 
 function App() {
   return (
@@ -23,7 +23,6 @@ function App() {
         <Route path="about" element={<About />} />
         <Route path="market" element={<Market />} />
         <Route path="contact" element={<Contact />} />
-        <Route path="viewer" element={<Viewer />} />
 
       </Routes>
     </BrowserRouter>

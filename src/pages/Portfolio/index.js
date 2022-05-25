@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../../components/Header";
 import Mason from "../../components/Masonry";
-import { Alert } from "react-bootstrap";
+
 import "./style.css";
 import Footer from "../../components/Footer";
 
