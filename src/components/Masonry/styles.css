@@ -33,17 +33,17 @@
         top: 0%;
         transform:
     
-        rotateY(-25deg)
+        rotateY(-22deg)
         rotateX(-3deg);
         perspective: (800px);
-      transition: transform 1s ease 0s;
+      transition: transform .75s ease 0s;
    
     
     }
     
       #ima:hover {
-        transform:rotateY(0deg) rotateX(0deg);
-        scale: (1.5);
+        transform:rotateY(0deg) rotateX(0deg)
+        scale(1.05);
     }
 
 
