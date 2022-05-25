@@ -1,10 +1,13 @@
 import React from "react";
 import "./style.css";
+import { Col, Row } from "react-bootstrap";
 
 function ConForm () {
     return (
-        <div class="container">
-    <form>
+        <div>
+            <Row md="justify-content-center-md-center">
+            <Col md={{ span: 6, offset: 3 }}>
+            <form>
         <ul>
             <li>
                 <label for="name"><span>Name <span class="required-star">*</span></span></label>
@@ -23,7 +26,11 @@ function ConForm () {
             </li>
         </ul>
     </form>
-</div>
+</Col>
+
+            </Row>
+
+            </div>
     )
 }
 

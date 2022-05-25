@@ -11,14 +11,14 @@ function About() {
         <div>
 
 <Header />
-        <div className="viewThree" id="about">
-            <Row id="aboot">
-                <Col id="pio">
+        <div className="text-center" id="about">
+            <Row id="aboot" className="align-items-center">
+                <Col className="col-md-6 text-center">
                     <img src={MeOnWater} className="about-photo img-fluid" alt="Me"></img>
                 </Col>
-                <Col id="biolo">
-                    <h3 className="viewTitle" id="aboutTitle">About the Artist</h3>
-                    <div className="row align-self-center bioText">
+                <Col sm={6} id="biolo">
+                    <h4 id="abtitle">About the Artist</h4>
+                    <div className="row align-self-center bioText" id="bt">
                         <p className="bio">Celebrating vibrant color, contrast and form, Christina explores all types of subject matter. She is drawn to compositions highlighting depth, color, and dramatic highlights. Never content to remain unchallenged, her body of work has evolved to span the range of styles from abstraction to traditionally representational.
 
 Christina grew up in Chapel Hill, NC and now resides in Charlotte, NC with her husband and family. A graduate of the University of North Carolina at Chapel Hill, Christina took many art history and studio art classes as an undergraduate. After continuing on to earn an MBA, Christina worked in the field of Marketing until taking the leap to become a full time artist in 1994. Christina has studied with Rita Alred, Andy Braitman, Stephen Early, Miriam Durkin and attended numerous artists' workshops and seminars. She also enjoys the tradition and challenge of ongoing life drawing classes.</p>
