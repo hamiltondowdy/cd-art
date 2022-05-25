@@ -2,7 +2,7 @@
 label,
 input,
 textarea {
- 
+    margin-top: 5%;
     width: 100%;
     text-align: center;
 }
@@ -34,6 +34,9 @@ input[type="submit"] {
     margin-top: 1.3em;
 }
 
+#rar {
+    margin-top: 5%;
+}
 
 form {
     background: #887676;

@@ -4,7 +4,7 @@ import { Col, Row } from "react-bootstrap";
 
 function ConForm () {
     return (
-        <div>
+        <div id="rar">
             <Row md="justify-content-center-md-center" id='ror'>
                 
             <Col md={{ span: 6, offset: 3 }}>
