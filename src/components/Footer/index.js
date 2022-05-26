@@ -7,7 +7,7 @@ function Footer () {
     return (
 
         <div>
-            <Row className="justify-content-md-center">
+            <Row className="justify-content-md-center" id="ra">
     <Col xs lg="5">
         <div className="soc">
         <Socials />
