@@ -6,7 +6,10 @@ function Header () {
     return (
         <div>
             <div id="logo">
+                <div id="backer">
                 <h1>Christina Dowdy</h1>
+                </div>
+                
                 <h4>Original Oil Paintings</h4>
                 <div id="oop">
 
