@@ -1,9 +1,9 @@
 #ima {
     
-    padding: 15px;
+    padding: 5px;
     margin: 15px;
     background-color: rgb(146, 140, 140);
-    border: 10px solid rgb(185, 168, 168);
+    border: 6px solid rgb(185, 168, 168);
   border-style: inset;
   
 
@@ -28,10 +28,10 @@
 
         transform:
         rotateY(-35deg)
-        rotateX(15deg);
+        rotateX(10deg);
         box-shadow: rgba(50, 50, 50, 0.2) 30px 21px 38px, rgba(110, 109, 109, 0.22) 0px 40px 50px;
         perspective: (-800px);
-      transition: transform 1.5s ease-in-out;
+      transition: transform 1s ease-in-out;
 
    
     
@@ -41,7 +41,7 @@
         transform:rotateY(0deg);
 
         box-shadow: rgba(0, 0, 0, 0.2) 0px 21px 38px, rgba(110, 109, 109, 0.22) 0px 20px 30px;
-        transition: transform 1.5s ease-in-out;
+        transition: transform 1s ease-in-out;
         transition: box-shadow 1s eas-out;
     }
 

@@ -56,7 +56,7 @@ const CustomToggle = React.forwardRef(({ children, onClick }, ref) => (
   
   return(
     <Dropdown>
-      <Dropdown.Toggle as={CustomToggle} className="btn btn-success">
+      <Dropdown.Toggle as={CustomToggle} variant="success">
         <a>Categories</a>
       </Dropdown.Toggle>
   

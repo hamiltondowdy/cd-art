@@ -38,11 +38,16 @@ input[type="submit"] {
     margin-top: 5%;
 }
 
+ul {
+    padding-left: 0 !important;
+}
+
 form {
+    flex-wrap: wrap;
+    justify-content: center;
     background: #887676;
     padding-top: 40px;
-    padding-left: 7px;
-    padding-right: 40px;
+    padding: 2%;
     padding-bottom: 40px;
 
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);

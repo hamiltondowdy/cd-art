@@ -73,3 +73,12 @@ h4 {
     font-weight: normal;
     letter-spacing: 4px;
 }
+
+
+@media only screen and (max-width: 600px) {
+#aboot p {
+    font-size: 12px;
+    max-height: 50vh;
+}
+
+}
