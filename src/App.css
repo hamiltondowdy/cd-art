@@ -20,6 +20,11 @@ html, body {
   margin: 20px 0;
 }
 
+.row > * {
+  padding-right: 0;
+  padding-left: 0;
+}
+
 .photo-item img {
   display: flex;
   width: 100%;

@@ -30,9 +30,9 @@ function ConForm () {
     </form>
 </Col>
 
-            </Row>
+</Row>
 
-            </div>
+</div>
     )
 }
 
