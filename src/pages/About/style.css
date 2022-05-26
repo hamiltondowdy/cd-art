@@ -41,13 +41,18 @@ color: rgb(245, 245, 245);
     font-size: 3.5rem;
     font-style: italic;
     font-weight: 500;
-    text-shadow: rgba(0, 0, 0, 0.9) 0px 2px 4px, rgba(0, 0, 0, 0.8) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    text-shadow: rgba(0, 0, 0, 1) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 3px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    text-shadow: 0 1.36px 0.896px #c1bbb3,0 3px 1px rgb(47, 37, 37);
+    text-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     font-family: 'Playfair Display', sans-serif !important;
 }
 
 #bt {
     font-size: 1rem;
     font-weight: 400;
+    text-shadow: rgba(0, 0, 0, 1) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 3px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    text-shadow: 0 1.36px 0.896px #c1bbb3,0 3px 1px rgb(47, 37, 37);
+    text-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 
 }
 
@@ -55,10 +60,11 @@ color: rgb(245, 245, 245);
     flex-wrap: wrap;
     padding: 5%;
     margin-top: 4%;
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 7%;
+    margin-left: 7%;
     background-color: #887676;
     border-radius: 5px;
+    
 }
 
 #pio {
@@ -69,21 +75,15 @@ color: rgb(245, 245, 245);
 h4 {
     font-weight: normal;
     letter-spacing: 4px;
+    
 }
 
 
 @media only screen and (max-width: 600px) {
-#aboot p {
-    font-size: .2;
+#bt p {
+    font-size: .80rem;
    
 }
 
 }
 
-@media only screen and (max-width: 350px) {
-    #aboot p {
-        font-size: .1;
-       
-    }
-    
-    }
