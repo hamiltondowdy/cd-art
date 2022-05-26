@@ -6,7 +6,7 @@ function Header () {
     return (
         <div>
             <div id="logo">
-                <h1><i>Christina Dowdy</i></h1>
+                <h1>Christina Dowdy</h1>
                 <h4>Original Oil Paintings</h4>
                 <div id="oop">
 
@@ -14,7 +14,7 @@ function Header () {
                 </div>
                 
             </div>
-            <div class="container red topBotomBordersOut">
+            <div class="container red topBotomBordersOut justify-content-center" id="navvy">
   <a href="/">Home</a>
   <a href="/market">Market</a>
   <a href="/portfolio">Portfolio</a>
