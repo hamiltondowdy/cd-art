@@ -6,12 +6,12 @@ A modern, visually pleasing artist portfolio made with React and Bootstrap. Buil
 
 ## Authors
 
-- [@hamiltondowdy](https://www.github.com/hamiltondowdy)
+[@hamiltondowdy](https://www.github.com/hamiltondowdy)
 
 
 ## Screenshots
 
-![App Screenshot] (/screencd.png)
+![App Screenshot](./screencd.png)
 
 
 
