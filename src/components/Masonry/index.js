@@ -23,16 +23,20 @@ import img18 from "../../img/0027.jpg";
 import img19 from "../../img/0028.jpg";
 import img20 from "../../img/0029.jpg";
 import "./styles.css";
-import { styled } from '@mui/material/styles';
+
 
 
 
 export default function Mason () {
   return (
     <div id="mas">
+     
         <Box sx={{ minHeight: 100 }}>
-      <Masonry columns={{ xs: 1, sm: 2, md: 3}} spacing={2}>
+      <Masonry columns={{ xs: 1, sm: 2}} spacing={2}>
         {itemData.map((item, index) => (
+          
+         
+          
           <div key={index} id="ima" className='module'>
             <div className='mug' id='bord'>
             <img
@@ -50,13 +54,15 @@ export default function Mason () {
 
             </div>
 
-            
-          </div>
+            </div>
+          
+          
+
         ))}
       </Masonry>
     </Box>
-
     </div>
+
     
   );
 }

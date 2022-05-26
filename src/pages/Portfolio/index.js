@@ -2,27 +2,24 @@ import React from "react";
 import Header from "../../components/Header";
 import CatMenu from "../../components/CatMenu";
 import Mason from "../../components/Masonry";
-
-import "./style.css";
 import Footer from "../../components/Footer";
+import "./style.css";
 
 function Portfolio () {
     return (
         <div>
             <div>
-            <Header />
+                <Header />
             </div>
-            <CatMenu />
-           
+            <div id="title">
+                <h1>Portfolio</h1>
+                </div>
+                <CatMenu />
                 
-
-
-
             <div id="mason">
-            <Mason /> 
+                <Mason /> 
             </div>
-        
-        <Footer />
+                <Footer />
         </div>
         
     )
