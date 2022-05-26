@@ -17,7 +17,7 @@ function Header () {
                 </div>
                 
             </div>
-            <div class="container red topBotomBordersOut justify-content-center" id="navvy">
+            <div class="container red topBotomBordersOut justify-content-center"   id="navvy">
   <a href="/">Home</a>
   <a href="/market">Market</a>
   <a href="/portfolio">Portfolio</a>

@@ -19,7 +19,7 @@ function Portfolio () {
             <div id="mason">
                 <Mason /> 
             </div>
-                <Footer />
+                <Footer  />
         </div>
         
     )
