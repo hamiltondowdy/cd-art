@@ -12,7 +12,7 @@ function Portfolio () {
                 <Header />
             </div>
             <div id="title">
-                <h1>  Portfolio </h1>
+                <h1>  Portfolio of Works </h1>
                 </div>
                 <CatMenu />
                 
